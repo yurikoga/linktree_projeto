@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & .perfil{
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+
+        & img{
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+            object-fit: cover; /* object-fit: cover; serve para manter a proporção da imagem sem distorcer */
+        }
+        & .textos{
+            width: 100%;
+            
+        }
+    }
+    & .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+        & a{
+            background-color: rgb(119, 84, 7);
+            padding: 10px 20px;
+            color: white;
+            border-radius: 30px;
+            width: 80%;
+            text-align: center;
+            font-size: 18px;
+            box-shadow: 10px 10px 2 px rgb(0, 0, 0);
+            border: 1px solid black; /*1px = tamanho da borda; solid = estilo da borda; black = cor da borda */
+            transition: .5s;
+        }
+        
+        & a:hover{
+            transform: translateX(-4px) translateY(-4px);
+            box-shadow: 14px 14px 2px rgb(0, 0, 0);
+        }
+        
+    }
+}
