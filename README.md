@@ -29,6 +29,6 @@ Durante o desenvolvimento deste projeto, fiz questão de aplicar algumas boas pr
 
 ## 📸 Demonstração
 
-> 🔗 **Visualize o projeto online clicando aqui:** [Inserir o link do seu GitHub Pages ou Vercel]
+> 🔗 **Visualize o projeto online clicando aqui:** https://yurikoga.github.io/linktree_projeto/
 
 ---
